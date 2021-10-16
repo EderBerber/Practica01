@@ -6,5 +6,9 @@
  * @since practica 01, Modelado y programación, 2022-1
  */
 public interface Servicio{
-	
+	/**
+	* Método en donde una plataforma cobra a sus clientes por el servicio que están requiriendo.
+	* @return true si se cobró, false si no se pudo realizar el cobro.
+	*/
+	public boolean cobrar();
 }
